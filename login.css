@@ -1,0 +1,181 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c2f36;
+      color: #fff;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 40px;
+    }
+
+    .top-bar h1 {
+      font-size: 18px;
+      color: #3ddc97;
+    }
+
+    .entrar {
+      color: #3ddc97;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #e8e8e8;
+      padding: 10px 40px;
+    }
+
+    nav a {
+      margin-right: 20px;
+      color: #555;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    main {
+      padding: 40px;
+    }
+
+    .auth-section {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 26px;
+      color: #111;
+      margin-bottom: 30px;
+    }
+
+    .auth-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .auth-form label {
+      font-weight: bold;
+      color: #111;
+    }
+
+    .auth-form input[type="text"],
+    .auth-form input[type="password"] {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    .password-wrapper {
+      position: relative;
+    }
+
+    .toggle-password {
+      position: absolute;
+      right: 10px;
+      top: 8px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .btn {
+      background-color: #3ddc97;
+      color: white;
+      padding: 10px 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: fit-content;
+    }
+
+    .alert-box {
+      margin-top: 40px;
+      background-color: #fff8f1;
+      border: 1px solid #ffb980;
+      padding: 20px;
+      border-radius: 10px;
+      color: #e65c00;
+      text-align: center;
+    }
+
+    .alert-box .btn-orange {
+      display: inline-block;
+      background-color: #ff6f00;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 5px;
+      margin: 10px 0;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .alert-box .retry-note {
+      color: #777;
+      font-size: 13px;
+    }
+
+    footer {
+      background: #1c305a;
+      color: white;
+      padding: 10px 40px;
+      font-size: 14px;
+      /*margin-top: 80px;*/
+    }
+
+    .rodape-conteudo {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .rodape-logo img {
+      height: 70px;
+      margin-bottom: 5px;
+    }
+
+    .rodape-logo span {
+      display: block;
+      margin-top: 5px;
+    }
+
+    .rodape-links {display: flex; gap: 20px;}
+
+    .rodape-links a {
+      display: block;
+      color: white;
+      text-decoration: underline;
+      margin-bottom: 8px;
+    }
+
+    footer a {
+      color: #9de7cf;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .copyright {
+      margin-top: 20px;
+      text-align: center;
+    }
